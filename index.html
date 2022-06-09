@@ -190,7 +190,19 @@ especially when the target function possesses critical points in the interior of
                         
                     </p>
                     <p,class="abstract-text">
-                        Partial differential equations are often used to model various physical phenomena, such as heat diffusion, wave propagation, fluid dynamics, elasticity, electrodynamics and image processing, and many analytic approaches or traditional numerical methods have been developed and widely used for their solutions. Inspired by rapidly growing impact of deep learning on scientific and engineering research, in this paper we propose a novel neural network, GF-Net, for learning the Green's functions of linear reaction-diffusion equations in an unsupervised fashion. The proposed method overcomes the challenges for finding the Green's functions of the equations on arbitrary domains by utilizing physics-informed approach and the symmetry of the Green's function. As a consequence, it particularly leads to an efficient way for solving the target equations under different boundary conditions and sources. We also demonstrate the effectiveness of the proposed approach by experiments in square, annular and L-shape domains.
+                     Partial differential equations are commonly used to model various physical phenomena, such as
+heat diffusion, wave propagation, fluid dynamics, elasticity, electrodynamics and so on. Due to
+their tremendous applications in scientific and engineering research, many numerical methods have
+been developed in past decades for efficient and accurate solutions of these equations on modern
+computing systems. Inspired by the rapidly growing impact of deep learning techniques, we propose
+in this paper a novel neural network method, “GF-Net”, for learning the Green’s functions of
+the classic linear reaction-diffusion equation with Dirichlet boundary condition in the unsupervised
+fashion. The proposed method overcomes the numerical challenges for finding the Green’s functions
+of the equations on general domains by utilizing the physics-informed neural network and the
+domain decomposition approach. As a consequence, it also leads to a fast numerical solver for the
+target equation subject to arbitrarily given sources and boundary values without network retraining.
+We numerically demonstrate the effectiveness of the proposed method by extensive experiments
+with various domains and operator coefficients.   
                     </p>
                 </div>
             </div> 
