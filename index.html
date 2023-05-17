@@ -117,6 +117,43 @@
         
         <div class="media">
                 <a name="AMC" class="pull-left">
+                    <img class="media-object" src="./myimg/Strategy.pdf" width="296px" height="296px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                            A Deep Learning Method for the Dynamics of Classic and Conservative Allen-Cahn Equations Based on Fully-Discrete Operators
+                     </strong><br>
+                            Yuwei Geng, <strong>Yuankai Teng</strong>, Zhu Wang, Lili Ju
+                       </p>
+                       <p class="media-heading">
+                        <i>Journal of Computational Physics (JCP) submitted</i>                                    
+                    </p>
+                    <p,class="abstract-text">
+                        The Allen-Cahn equation is a well-known stiff semilinear parabolic partial differential equation (PDE) used
+to describe the process of phase separation in multi-component physical systems, while the conservative
+Allen-Cahn equation is a modified version of the classic Allen-Cahn equation that can additionally conserve
+the mass. Both equations have been popularly used in phase field modeling, and much effort has been
+devoted to developing conventional numerical methods to compute their solutions. As deep learning has
+achieved significant successes in recent years in various scientific and engineering applications, there has
+been growing interest in developing deep learning algorithms for numerical solutions of PDEs. In this paper,
+we propose and study a deep learning method for simulating the dynamics of the classic and conservative
+Allen-Cahn equations. We design two types of convolutional neural network models, one for each of the
+Allen-Cahn equations, to learn the corresponding fully-discrete operators between two adjacent time steps.
+Specifically, the loss functions of the proposed models are defined as the residuals of the fully-discrete
+systems of the target equations, which result from applying the central finite difference discretization in
+space and the backward Euler approximation in time. This approach enables us to train the models without
+requiring ground-truth data during the training process. Moreover, we introduce a novel training strategy
+that automatically generates useful samples along the time evolution to facilitate effective training of the
+models. Finally, we conduct extensive experiments to demonstrate the outstanding performance of our
+proposed method, including its dynamics prediction and generalization ability under different scenarios in
+two and three dimensions.
+                        </p>
+                </div>
+            </div>         
+        
+        <div class="media">
+                <a name="AMC" class="pull-left">
                     <img class="media-object" src="./myimg/Synthesized_regression.png" width="296px" height="296px">
                 </a>
                 <div class="media-body">
